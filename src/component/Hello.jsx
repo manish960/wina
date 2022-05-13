@@ -21,11 +21,7 @@ const Hello = (props) => {
             <DeleteIcon />
             <Battery20Icon />
 
-            <Tooltip title="Delete" arrow>
-                <IconButton>
-                    <DeleteIcon />
-                </IconButton>
-            </Tooltip>
+            
 
             <h1>hello {props.name}</h1>
         </>
